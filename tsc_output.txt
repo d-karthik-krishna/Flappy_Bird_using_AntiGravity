@@ -1,0 +1,7 @@
+src/engine/GameLoop.ts(10,9): error TS1294: This syntax is not allowed when 'erasableSyntaxOnly' is enabled.
+src/engine/GameLoop.ts(11,9): error TS1294: This syntax is not allowed when 'erasableSyntaxOnly' is enabled.
+src/engine/Vector2.ts(2,17): error TS1294: This syntax is not allowed when 'erasableSyntaxOnly' is enabled.
+src/engine/Vector2.ts(2,39): error TS1294: This syntax is not allowed when 'erasableSyntaxOnly' is enabled.
+src/game/Bird.ts(12,22): error TS6133: 'MAX_ROTATION' is declared but its value is never read.
+src/game/Bird.ts(13,22): error TS6133: 'MIN_ROTATION' is declared but its value is never read.
+src/game/Game.ts(9,12): error TS1294: This syntax is not allowed when 'erasableSyntaxOnly' is enabled.

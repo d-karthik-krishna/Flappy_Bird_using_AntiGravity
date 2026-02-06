@@ -29,7 +29,7 @@ export class Bird {
 
         // Rotation logic: 
         // Map velocity to rotation
-        this.rotation = Math.min(Math.PI / 2, Math.max(-Math.PI / 4, (this.velocity.y * 0.002)));
+        this.rotation = Math.min(this.MAX_ROTATION, Math.max(this.MIN_ROTATION, (this.velocity.y * 0.002)));
     }
 
     draw(renderer: Renderer): void {
